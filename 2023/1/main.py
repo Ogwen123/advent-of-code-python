@@ -2,7 +2,7 @@ data = []
 with open("./2023/1/input.txt", "r") as f:
     data = f.read().split("\n")
 
-def part1(data):
+def part1():
     total = 0
     for i in data:
         num_str =""
@@ -16,7 +16,7 @@ def part1(data):
 
     print(f"Part 1: {total}")
 
-def part2(data):
+def part2():
     numbers = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     total = 0
     for i in data:
@@ -35,5 +35,5 @@ def part2(data):
 
     print(f"Part 2: {total}")
 
-part1(data)
-part2(data)
+part1()
+part2()
